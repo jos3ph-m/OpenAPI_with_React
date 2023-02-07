@@ -6,7 +6,7 @@ function App() {
   const [tweet, setTweet] = useState("")
 
   function callOpenAIAPI() {
-    
+
   }
 
   return (
@@ -20,7 +20,7 @@ function App() {
         />
       </div>
       <div>
-        <button>Get Your Tweet Sentiment - Powered by OpenAPI</button>
+        <button onClick={callOpenAIAPI}>Get Your Tweet Sentiment - Powered by OpenAPI</button>
       </div>
     </div>
   )
