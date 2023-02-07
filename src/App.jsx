@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <div>
         <textarea
-        onChange={(e) => setTweet(e.target)}
+        onChange={(e) => setTweet(e.target.value)}
           placeholder="Paste your tweet here!"
           cols={50}
           rows={10}
