@@ -10,6 +10,7 @@ function App() {
       <div>
         <textarea
           placeholder="Paste your tweet here!"
+          cols={50}
         />
       </div>
     </div>
