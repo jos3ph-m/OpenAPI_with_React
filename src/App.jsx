@@ -14,6 +14,9 @@ function App() {
           rows={10}
         />
       </div>
+      <div>
+        <button>Get Your Tweet Sentiment - Powered by OpenAPI</button>
+      </div>
     </div>
   )
 }
