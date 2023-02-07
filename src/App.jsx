@@ -7,7 +7,11 @@ function App() {
 
   return (
     <div className="App">
-
+      <div>
+        <textarea
+          placeholder="Paste your tweet here!"
+        />
+      </div>
     </div>
   )
 }
