@@ -6,7 +6,7 @@ function App() {
   const [tweet, setTweet] = useState("")
 
   function callOpenAIAPI() {
-
+    console.log("Calling the OpenAI API")
   }
 
   return (
