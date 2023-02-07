@@ -5,6 +5,10 @@ import './App.css'
 function App() {
   const [tweet, setTweet] = useState("")
 
+  function callOpenAIAPI() {
+    
+  }
+
   return (
     <div className="App">
       <div>
