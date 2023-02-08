@@ -23,7 +23,7 @@ function App() {
       <div>
         <button onClick={callOpenAIAPI}>Get Your Tweet Sentiment - Powered by OpenAPI</button>
         {sentiment !== "" ?
-        <h3></h3>: null  
+        <h3>This Tweet is:</h3>: null  
       }
       </div>
     </div>
