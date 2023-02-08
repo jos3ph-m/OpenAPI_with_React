@@ -4,6 +4,7 @@ import './App.css'
 
 function App() {
   const [tweet, setTweet] = useState("")
+  const [sentiment, setSentiment] = useState("")
 
   function callOpenAIAPI() {
     console.log("Calling the OpenAI API")
