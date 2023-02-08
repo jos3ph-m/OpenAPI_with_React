@@ -4,7 +4,7 @@ import './App.css'
 
 function App() {
   const [tweet, setTweet] = useState("")
-  const [sentiment, setSentiment] = useState("")
+  const [sentiment, setSentiment] = useState(""); // "Negative" or "Positive"
 
   function callOpenAIAPI() {
     console.log("Calling the OpenAI API")
