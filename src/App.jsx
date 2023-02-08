@@ -11,7 +11,7 @@ function App() {
   const [tweet, setTweet] = useState("")
   const [sentiment, setSentiment] = useState(""); // "Negative" or "Positive"
 
-  function callOpenAIAPI() {
+  async function callOpenAIAPI() {
     console.log("Calling the OpenAI API")
     fetch("https://api.openai.com/v1/completions")
   }
