@@ -2,6 +2,10 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import './App.css'
 
+const API_KEY = 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
+
+console.log(API_KEY)
+
 function App() {
   const [tweet, setTweet] = useState("")
   const [sentiment, setSentiment] = useState(""); // "Negative" or "Positive"
