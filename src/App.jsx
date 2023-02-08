@@ -10,6 +10,7 @@ function App() {
     console.log("Calling the OpenAI API")
   }
 
+  console.log(tweet)
   return (
     <div className="App">
       <div>
