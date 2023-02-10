@@ -16,7 +16,7 @@ function App() {
     // - H "Authorization: Bearer $OPENAI_API_KEY" \
 
     const APIBody = {
-      
+      "model": "text-davinci=003"
     }
 
     await fetch("https://api.openai.com/v1/completions"), {
