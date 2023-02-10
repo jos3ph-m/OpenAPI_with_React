@@ -13,6 +13,9 @@ function App() {
 
   async function callOpenAIAPI() {
     console.log("Calling the OpenAI API")
+
+    // - H "Content-Type: application/json" \
+
     await fetch("https://api.openai.com/v1/completions"), {
       method: 'POST'
     }
