@@ -15,7 +15,7 @@ function App() {
     console.log("Calling the OpenAI API")
 
     // - H "Content-Type: application/json" \
-    // - H "Authorization: Bearer $OPENAI_API_KEY"
+    // - H "Authorization: Bearer $OPENAI_API_KEY" \
 
     await fetch("https://api.openai.com/v1/completions"), {
       method: 'POST'
