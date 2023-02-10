@@ -30,7 +30,8 @@ function App() {
       headers: {
         "Content-Type": "application/json",
         "Authorization": `Bearer ${API_KEY}`
-      }
+      },
+      body: JSON.stringify(APIBody)
     }
   }
 
