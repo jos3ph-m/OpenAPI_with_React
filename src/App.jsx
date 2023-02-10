@@ -13,7 +13,9 @@ function App() {
 
   async function callOpenAIAPI() {
     console.log("Calling the OpenAI API")
-    await fetch("https://api.openai.com/v1/completions")
+    await fetch("https://api.openai.com/v1/completions"), {
+      
+    }
   }
 
   console.log(tweet)
