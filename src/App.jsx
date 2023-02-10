@@ -5,8 +5,6 @@ import './App.css'
 // make sure you use your own API key
 const API_KEY = import.meta.env.VITE_API_KEY;
 
-console.log(API_KEY)
-
 function App() {
   const [tweet, setTweet] = useState("")
   const [sentiment, setSentiment] = useState(""); // "Negative" or "Positive"
@@ -19,9 +17,10 @@ function App() {
 
     await fetch("https://api.openai.com/v1/completions"), {
       method: 'POST',
-      // headers: {
-      //   "Content-Type": 
-      // }
+      headers: {
+        "Content-Type": "application/json",
+        "Authorization": `Bearer ${API_KEY}`
+      }
     }
   }
 
