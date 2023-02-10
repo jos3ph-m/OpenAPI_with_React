@@ -3,7 +3,7 @@ import reactLogo from './assets/react.svg'
 import './App.css'
 
 // make sure you use your own API key
-const API_KEY = "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"
+const API_KEY = import.meta.env.VITE_API_KEY;
 
 console.log(API_KEY)
 
@@ -18,7 +18,10 @@ function App() {
     // - H "Authorization: Bearer $OPENAI_API_KEY" \
 
     await fetch("https://api.openai.com/v1/completions"), {
-      method: 'POST'
+      method: 'POST',
+      // headers: {
+      //   "Content-Type": 
+      // }
     }
   }
 
