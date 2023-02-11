@@ -5,6 +5,7 @@ import './App.css'
 // make sure you use your own API key
 const API_KEY = import.meta.env.VITE_API_KEY;
 
+
 function App() {
   const [tweet, setTweet] = useState("")
   const [sentiment, setSentiment] = useState(""); // "Negative" or "Positive"
@@ -36,6 +37,7 @@ function App() {
       return data.json()
     }).then((data) => {
       console.log(data)
+      data.choices[]
     })
   }
 
