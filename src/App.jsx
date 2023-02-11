@@ -37,7 +37,7 @@ function App() {
       return data.json()
     }).then((data) => {
       console.log(data)
-      data.choices[]
+      data.choices[0]
     })
   }
 
