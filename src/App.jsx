@@ -37,7 +37,7 @@ function App() {
       return data.json()
     }).then((data) => {
       console.log(data)
-      setSentiment(data.choices[0].text.trim());
+      setSentiment(data.choices[0].text.trim()); // positive or negative
     })
   }
 
