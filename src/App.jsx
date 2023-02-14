@@ -18,7 +18,7 @@ function App() {
 
     const APIBody = {
       "model": "text-davinci-003",
-      "prompt": `What is the sentiment of this tweet? ${tweet}`,
+      "prompt": `What is the sentiment of this tweet with a value between 0 and 10? ${tweet}`,
       "temperature": 0,
       "max_tokens": 60,
       "top_p": 1.0,
