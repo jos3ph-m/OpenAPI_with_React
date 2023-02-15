@@ -13,8 +13,8 @@ function App() {
   async function callOpenAIAPI() {
     console.log("Calling the OpenAI API")
 
-    // - H "Content-Type: application/json" \
-    // - H "Authorization: Bearer $OPENAI_API_KEY" \
+    // - H "Content-Type: application/json" \\
+    // - H "Authorization: Bearer $OPENAI_API_KEY" \\
 
     const APIBody = {
       "model": "text-davinci-003",
